@@ -1,0 +1,214 @@
+body{
+
+    font-family:  'Open Sans', sans-serif;
+    background-color: #e4e4e4;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#snapshot{
+    display: none;
+}
+
+
+
+
+.photo-booth{
+    width: 50%;
+    height: 300px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #333;
+}
+
+
+.buttons{
+
+    text-align: center;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+
+}
+
+
+video{
+width: 80%;
+height: 250px;
+margin: 10px;
+
+}
+
+
+
+
+
+.button1{
+
+    background-color: #d84a38;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    margin: 20px;
+    padding: 0.5em 0.7em  0.6em 0.7em;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+button{
+
+    background-color: #d84a38;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.7em  0.6em 0.7em;
+    border-radius: 5px;
+}
+
+
+button:active{
+    background-color: #cf402f;
+}
+
+button:hover{
+    background-color: #cf402f;
+    cursor: pointer;
+}
+
+
+#filter, #sanshot{
+
+    display: none;
+    margin-right: 20px;
+    float: left;
+}
+
+
+
+.blur{
+
+    filter:blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+
+
+.grayscale{
+
+    filter:grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+.sepia{
+
+    filter: sepia(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+
+.brightness{
+    filter: brightness(2.2);
+    -webkit-filter: brightness(2.2);
+}
+
+.contrast{
+    filter: contrast(3);
+    -webkit-filter: contrast(3);
+}
+
+
+.hue{
+    filter: hue-rotate(120deg);
+    -webkit-filter:  hue-rotate(120deg);
+}
+
+
+
+.invert{
+
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+
+
+.saturate{
+
+    filter: saturate(5);
+    -webkit-filter: saturate(5);
+}
+
+
+
+
+
+@media screen and (max-width: 980px) {
+   
+    body{
+     overflow: hidden;
+    }
+
+   video{
+    width: 100%;
+    height: 190px;
+    margin: 5px;
+  
+    
+    }
+    
+   
+
+    .photo-booth{
+        width: 100%;
+        padding: 5px;
+        height: 200px;
+          background-color: #333;
+    }
+
+    .buttons{
+
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 220px;
+        width: 100%;
+        height: 100px;
+    }
+
+    
+.button1{
+    background-color: #d84a38;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    margin: 30px;
+    padding: 0.5em 0.7em  0.6em 0.7em;
+    border-radius: 5px;
+}
+  }
+
